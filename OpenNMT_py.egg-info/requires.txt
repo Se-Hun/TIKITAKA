@@ -1,0 +1,12 @@
+configargparse
+flask
+future
+six
+tensorboard>=1.14
+torch>=1.3.1
+torchtext==0.4.0
+tqdm~=4.30.0
+waitress
+
+[:platform_system == "Linux"]
+pyonmttok==1.*
